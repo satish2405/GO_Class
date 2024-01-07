@@ -3,20 +3,32 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello Variables..!")
+	var a int                                                      //long declaration
+	var b float32 = 10.009                                         //long declaration
+	var c string = "venkatesh"                                     //long declaration
+	c = "satish"                                                   //short declaration
+	d := "sai"                                                     //short declaration
+	e := 20.90909                                                  //short declaration
+	fmt.Println("Hello Variables..!", a, b, c, d)                  //values printing
+	fmt.Printf("Name of variable : %s and datatype : %T \n", d, d) //printing the data type as well
+	fmt.Printf("Name of variable : %f and datatype : %T \n", e, e)
+
+	var x, y, z int = 2, 5, 10 // multi long decalartion in single line
+	var (                      // multidata long type declaration
+		name   string = "sai kumar"
+		age    int
+		weight float64 = 67.89
+	)
+	fmt.Println("Hello Variables..!", x, y, z)
+	fmt.Println(name, age, weight)
+
+	m, n, o := 2, 5.2, "satish"
+	fmt.Println(m, n, o)
+	fmt.Printf("datatypes : %T, %T, %T \n", m, n, o)
+
 }
 
+// long declaration, short delcaration, muliple short and long declaration
 
 // int, float, boolean, char, switch
 // struct, union, enum, typedef
-8 bits = 1 byte  == 0000 0000
-
-0000 0001 = 2^0 = 1
-0000 0010 = 2^1 = 2 
-0000 0011 = 3
-0000 0100 =2^2 = 4
-0000 0101 = 5
-0000 0110 = 6 
-0000 0111 = 7
-0000 1000 = 8
-0000 1111 = 2^3+2^2+2^1+2^0 = 8+4+2+1 = 15
