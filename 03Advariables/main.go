@@ -20,7 +20,7 @@ func main() {
 	fmt.Println(x, str)
 
 	// storing the output to a variable rather than printing on console..!!
-	s := fmt.Sprintf("%v\t %v", y, m)
+	s := fmt.Sprintf("%v\t %#v %%", y, m)
 	fmt.Println(s)
 }
 
