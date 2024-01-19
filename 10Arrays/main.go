@@ -22,9 +22,13 @@ func main() {
 	// for _, v := range vegetables {
 	// 	fmt.Println("vegetable in new line :  \n", v)
 	// }
-
+	//randomarr := [...]string{}
 	for x := 0; x < len(vegetables); x++ { // 0, 1, 2, 3, 4, 5 <= 5
 		fmt.Println("vegetables in new line\n", vegetables[x])
+		//if x <= 3 {
+		//	randomarr[x] = vegetables[x]
+		//}
+
 	}
 
 	//2-d  array
