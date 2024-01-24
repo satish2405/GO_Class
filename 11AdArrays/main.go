@@ -45,8 +45,8 @@ func main() {
 	var s []int = make([]int, 3, 5) //slice another way of declaration
 	var q []int = s
 	q[0] = 10
-	fmt.Println(s)
-	fmt.Println(q)
+	fmt.Println("Values of S: ", s)
+	fmt.Println("Values of Q: ", q)
 
 	fmt.Println(len(s))
 	fmt.Println(cap(q))
