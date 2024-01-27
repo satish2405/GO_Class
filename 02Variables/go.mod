@@ -1,3 +1,3 @@
-module github.com/satish2405/variables
+module github.com/satish2405/hello
 
 go 1.18
