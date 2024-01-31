@@ -1,0 +1,20 @@
+go 1.18
+
+use (
+	./02Variables
+	./03Advariables
+	./04consts_casting
+	./05Constants
+	./06Conditions
+	./07Multiconditions
+	./08Loop
+	./09loopsindepth
+	./10Arrays
+	./12Arrays_Cap
+	./14rune
+	./15switch_case
+	./16structs
+	./18Functions_Indepth
+	./19Functions_Indepth_Callbacks
+	./20Modules
+)

@@ -56,6 +56,7 @@ import "fmt"
 // 	}()
 // }
 
+//recursive function use case.
 func factorial(x int) int {
 
 	if x == 0 {
