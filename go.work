@@ -17,4 +17,5 @@ use (
 	./18Functions_Indepth
 	./19Functions_Indepth_Callbacks
 	./20Modules
+	./22Encoding_Serialization
 )
